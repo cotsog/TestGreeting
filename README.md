@@ -1,2 +1,2 @@
 # TestGreeting
-#[![Build Status](https://travis-ci.org/Godmaz/TestGreeting.svg?branch=master)](https://travis-ci.org/Godmaz/TestGreeting)
+#[![Build Status](https://circleci.com/gh/Godmaz/TestGreeting/tree/master)](https://circleci.com/gh/Godmaz/TestGreeting)
