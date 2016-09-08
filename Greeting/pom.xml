@@ -7,7 +7,7 @@
     <groupId>com.time</groupId>
     <artifactId>mainTime</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <dependencies>
+   <!-- <dependencies>
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
@@ -19,6 +19,6 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
+    </dependencies>-->
 
 </project>
