@@ -1,5 +1,5 @@
 # example travis.yml haxe configuration
-language: c # change this to objective-c to test on a mac machine
+language: java # change this to objective-c to test on a mac machine
 
 env:
   # HAXE_VER:
