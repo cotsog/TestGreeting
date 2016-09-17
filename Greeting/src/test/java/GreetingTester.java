@@ -5,17 +5,18 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 
 import java.util.Locale;
-
+import org.apache.log4j.Logger;
 
 /**
  * Created by Alex on 08.09.2016.
  */
 public class GreetingTester {
-    private Greet gr;
+    public Greet gr;
     @Before
     public void init() {
 
         gr = new Greet();
+
     }
 
     @After

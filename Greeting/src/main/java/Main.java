@@ -1,24 +1,26 @@
 
-import java.util.ResourceBundle;
+import org.apache.log4j.Logger;
 
+import java.util.ResourceBundle;
 
 /**
  * Created by Alex on 07.09.2016.
  */
-public class Main {
+ public class Main {
 
-
+    public static Logger log = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
-        Greet.log.info("Create Greet object");
+
+        log.info("Create Greet object");
         Greet gr = new Greet();
         gr.getLocale();
         gr.gethours();
         ResourceBundle bundle = ResourceBundle.getBundle("Bundle", gr.myLocale);
-        Greet.log.info("Switch language");
+        log.info("Switch language");
         gr.showMessage(bundle);
-        Greet.log.info("Conclusion greetings");
-        Greet.log.info("Terminate program");
+        log.info("Conclusion greetings");
+        log.info("Terminate program");
 
     }
 }
