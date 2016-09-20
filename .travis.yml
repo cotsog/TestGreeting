@@ -1,4 +1,4 @@
 language: java
 sudo: false
-script: mvn clean verify package test
+script: mvn clean verify package 
 
