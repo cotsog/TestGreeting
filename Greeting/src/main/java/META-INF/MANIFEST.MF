@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Class-Path: lib/log4j.jar GreetTime-1.0-tests.jar
+Class-Path: lib\log4j.jar lib\junit-4.10.jar
 Main-Class: Main
