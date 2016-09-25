@@ -1,3 +1,3 @@
 language: java
-script: mvn test -Dtest=Greeting/src/test/java/IntegrationTest
+script: mvn test 
 
