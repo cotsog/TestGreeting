@@ -4,5 +4,5 @@ jdk:
   - openjdk7
   before_install:
   - cd java
-script: mvn test -f travis-ci-pom.xml
+script: mvn test 
 
