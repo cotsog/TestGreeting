@@ -1,4 +1,4 @@
 language: java
 before_script: DfailIfNoTests=false
-script: mvn test -DsuiteXmlFile=target/surefire-reports/TEST-IntegrationTest.xml
+script: mvn test -Dtest=IntegrationTest
 
